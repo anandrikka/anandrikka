@@ -1,0 +1,129 @@
+.menu-toggle {
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  z-index: 9999;
+}
+
+.menu-toggle .fas {
+  color: var(--primary);
+}
+
+.menu-toggle {
+  visibility: hidden;
+}
+
+.menu-toogle .fa-bars.show {
+  display: inherit;
+}
+
+.menu-toggle .fa-bars.hide {
+  display: none;
+}
+
+.menu-toogle .fa-times.show {
+  display: inherit;
+}
+
+.menu-toggle .fa-times.hide {
+  display: none;
+}
+
+.nav-container {
+  /* background: url('../img/pattern-bg.png'); */
+  background: #fff;
+  position: fixed;
+  z-index: 9998;
+  display: flex;
+  width: 100%;
+  padding: 12px 16px;
+  height: 55px;
+}
+
+.nav-container.show {
+  visibility: visible;
+}
+
+.nav-container .navbar {
+  margin: auto;
+}
+
+.nav-container .navbar .navbar-links {
+  display: block;
+  text-align: left;
+  height: 100%;
+}
+
+.nav-container .navbar .navbar-links .navbar-item {
+  display: inline-block;
+  height: 100%;
+}
+
+.nav-container .navbar .navbar-links .navbar-item.active a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.nav-container .navbar .navbar-links .navbar-item .navbar-link {
+  color: var(--secondary-font-color);
+  padding: 0px 32px;
+  display: block;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.nav-container .navbar .navbar-links .navbar-item .navbar-link:last-child {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+@media (max-width: 577.98px) {
+
+  .nav-container {
+    display: none;
+    height: auto;
+    padding: 0px;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    width: 250px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+  }
+
+  .nav-container .navbar {
+    margin: 0;
+    padding-top: 16px;
+    /* background: white; */
+  }
+
+  .nav-container .navbar .navbar-links .navbar-item {
+    display: block;
+    padding: 8px 12px;
+  }
+
+  .menu-toggle {
+    visibility: visible;
+  }
+
+}
+
+@media (min-width: 578px) {
+  .nav-container {
+    display: flex;
+  }
+  .menu-toggle .fa-times {
+    display: none;
+  }
+  .menu-toggle .fa-bars {
+    display: inherit;
+  }
+}
