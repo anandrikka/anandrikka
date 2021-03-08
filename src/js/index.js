@@ -8,15 +8,31 @@ require('../css/nav.css');
 window.$ = require('jquery');
 const Masonry = require('masonry-layout');
 const Typed = require('typed.js');
-window.Masonry = require('masonry-layout');
+
 // Preloader
 (function loader() {
   $('#preloader').delay(500).fadeOut('slow')
 }());
 
 $(function () {
+  // Masonry
   new Masonry(document.querySelector('.masonary-grid'), {
     itemSelector: '.masonary-grid-item'
+  })
+  // Typed
+  new Typed('#role-typed', {
+    strings: ["Web Development"],
+    stringsElement: null,
+    typeSpeed: 70,
+    startDelay: 150,
+    backSpeed: 40,
+    backDelay: 350,
+    loop: true,
+    loopCount: 550,
+    showCursor: true,
+    cursorChar: "|",
+    attr: null,
+    contentType: "html",
   })
 })
 // Clicking on bars icon to oopen menu
@@ -77,18 +93,3 @@ $(".navbar .navbar-item").on("click", function (e) {
   }
   e.preventDefault();
 });
-
-new Typed('#role-typed', {
-  strings: ["Web Development"],
-  stringsElement: null,
-  typeSpeed: 70,
-  startDelay: 150,
-  backSpeed: 40,
-  backDelay: 350,
-  loop: true,
-  loopCount: 550,
-  showCursor: true,
-  cursorChar: "|",
-  attr: null,
-  contentType: "html",
-})

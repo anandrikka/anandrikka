@@ -32,7 +32,8 @@
 }
 
 .nav-container {
-  background: url('../img/pattern-bg.png');
+  /* background: url('../img/pattern-bg.png'); */
+  background: #fff;
   position: fixed;
   z-index: 9998;
   display: flex;

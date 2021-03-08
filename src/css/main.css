@@ -12,21 +12,21 @@
 }
 
 body {
-  background: url(../img/pattern-bg.png) fixed;
+  /* background: url(../img/pattern-bg.png) fixed; */
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap");
 
 /* Normalize  */
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin: 0;
   color: var(--primary-font-color);
@@ -375,6 +375,8 @@ ul li {
 .home .short-info {
   margin-top: 16px;
   margin-bottom: 0px;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
 }
 
 .home .short-info .fab {
@@ -597,6 +599,7 @@ ul li {
   border-right: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .form-control:focus {
@@ -606,7 +609,7 @@ ul li {
 }
 
 .form-control::placeholder {
-  color: #94a2c6 !important;
+  color: #333 !important;
 }
 
 @media (max-width: 575.98px) {
