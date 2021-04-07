@@ -11,9 +11,9 @@
   --lg-max: 991.98px; 
 }
 
-body {
-  /* background: url(../img/pattern-bg.png) fixed; */
-}
+/* body {
+  background: url(../img/pattern-bg.png) fixed;
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap");
 
@@ -542,6 +542,27 @@ ul li {
   position: absolute;
   content: "|";
   left: -14px;
+}
+
+.content-item h3 {
+  margin: 0 0 10px;
+  line-height: 1;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+
+.content-item h4 {
+  margin: 0;
+  line-height: 1;
+}
+
+.content-item small {
+  color: #888888;
+}
+
+.timeline-items > .timeline-item > .subtitle2 {
+  font-size: 14px;
+  margin-bottom: 7px;
 }
 /* Resume Section - end */
 
