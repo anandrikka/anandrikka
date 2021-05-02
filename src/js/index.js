@@ -66,7 +66,7 @@ $(function () {
   $('#preloader').delay(500).fadeOut('slow')
 
   // Theme setter
-  document.documentElement.className = localStorage.theme || 'theme-light';
+  document.documentElement.className = localStorage.theme || 'theme-dark';
   localStorage.theme = document.documentElement.className;
   $(selectors.themeIconContainer).on('click', toggleThemeListener);
   setClassesForTheme(localStorage.theme);
