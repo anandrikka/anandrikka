@@ -1,11 +1,13 @@
 # Hi there, I'm Anand! 👋
 
-## I'm a Husband, Web developer, ML & AI enthusiast
+## Web developer, ML & AI enthusiast
 
-- 🔭 I’m currently working on migrating old legacy android app [Stock Calculator](https://play.google.com/store/apps/details?id=techanand.apps.stockcalculator&hl=en) to Flutter 
-- 🌱 I’m currently learning Flutter, Python
+- 🔭 I'm currently working on updating pet projects, done so long ago to new version of react.
 - 👯 I’m looking to collaborate on Github
-- 🥅 2020 Goals: AI, ML Certification, Improve Python skills, Refresh Java 8, Hibernate and spring skills
+- 🥅 2021 Goals:
+  - Refresh Java, Hibernate and Spring skills
+  - Complete AWS Developer Associate Certification
+  - Learn StencilJs
 - 💬 Ask me about React, Vue, Java
 - ⚡ Fun fact: I love to 🍳 new recepies!
 
